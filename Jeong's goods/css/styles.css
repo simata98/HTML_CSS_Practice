@@ -1,0 +1,268 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+#top-bar {
+	width: 100%;
+	height: 60px;
+	background-color: #353535;
+	line-height: 60px;
+	font-size: 20px;
+}
+
+#top-bar p {
+	font-size: 20px;
+	color: white;
+	margin-left: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+@media (min-width: 0px) {
+	#main {
+		width: 100%;
+		background-repeat: no-repeat;
+		height: 350px;
+		background-image: url(https://bakey.codeit.kr/files/613/images/main_img.jpg);
+		background-size: cover;
+		background-position: center center;
+	}
+
+	#main-sub {
+		float: left;
+		background-repeat: no-repeat;
+		height: 320px;
+		line-height: 320px;
+	}
+
+
+	#text {
+		width: 100%;
+		line-height: normal;
+		display: inline-block;
+		vertical-align: middle;
+		padding: 0 20px;
+	}
+
+	.head-text {
+		font-weight: bold;
+		font-size: 16px;
+		color: #4A4A4A
+		margin-bottom: 10px;
+	}
+
+	.subhead-text {
+		font-weight: bold;
+		font-size: 20px;
+		color: #1B1B1B;
+		margin-bottom: 30px;
+	}
+
+	.body-text {
+		font-size: 16px;
+		color: #7A7A7A;
+	}
+
+	#product1 {
+		width: 100%;
+		float: left;
+		height: 385px;
+		background-image: url(https://bakey.codeit.kr/files/613/images/img1.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+	}
+
+	#product2 {
+		width: 100%;
+		float: left;
+		height: 200px;
+		line-height: 200px;
+		background-image: url(https://bakey.codeit.kr/files/613/images/img2.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		text-align: center;
+	}
+
+	#product3 {
+		width: 100%;
+		float: left;
+		height: 200px;
+		background-image: url(https://bakey.codeit.kr/files/613/images/img3.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+
+	
+	#product2 .view-more {
+		width: 200px;
+		padding: 9px 40px;
+		font-size: 16px;
+		border: 4px white solid;
+		line-height: normal;
+		color: white;
+		text-align: center;
+		display: inline-block;
+		vertical-align: middle;
+		text-decoration: none;
+	}
+
+	#product2 .view-more a {
+		text-decoration: none;
+		color: white;
+	}
+
+}
+
+@media (min-width: 768px) {
+	#main {
+		width: 100%;
+		background-repeat: no-repeat;
+		height: 562px;
+		background-image: url(https://bakey.codeit.kr/files/613/images/main_img.jpg);
+		background-size: cover;
+		background-position: center center;
+	}
+
+	#main-sub {
+		float: left;
+		background-repeat: no-repeat;
+		height: 282px;
+		line-height: 282px;
+	}
+
+
+	#text {
+		width: 100%;
+		line-height: normal;
+		display: inline-block;
+		vertical-align: middle;
+		padding: 0 65px;
+	}
+
+	.head-text {
+		font-weight: bold;
+		font-size: 16px;
+		color: #4A4A4A
+		margin-bottom: 10px;
+	}
+
+	.subhead-text {
+		font-weight: bold;
+		font-size: 20px;
+		color: #1B1B1B;
+		margin-bottom: 30px;
+	}
+
+	.body-text {
+		font-size: 16px;
+		color: #7A7A7A;
+	}
+
+	#product1 {
+		width: 50%;
+		float: left;
+		height: 360px;
+		background-image: url(https://bakey.codeit.kr/files/613/images/img1.jpg);
+		background-repeat: no-repeat;
+	}
+
+	#product2 {
+		width: 50%;
+		float: left;
+		height: 180px;
+		background-image: url(https://bakey.codeit.kr/files/613/images/img2.jpg);
+		background-repeat: no-repeat;
+	}
+
+	#product3 {
+		width: 50%;
+		float: left;
+		height: 180px;
+		background-image: url(https://bakey.codeit.kr/files/613/images/img3.jpg);
+		background-repeat: no-repeat;
+	}
+
+
+
+}
+
+@media (min-width: 992px) {
+	#main {
+		float: left;
+		width: 50%;
+		background-repeat: no-repeat;
+		height: 700px;
+		background-image: url(https://bakey.codeit.kr/files/613/images/main_img.jpg);
+		background-size: cover;
+		background-position: center center;
+	}
+
+	#main-sub {
+		width: 50%;
+		float: left;
+		background-repeat: no-repeat;
+		height: 350px;
+		line-height: 350px;
+	}
+
+
+	#text {
+		margin: 0;
+		padding: 0 65px;
+		line-height: normal;
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.head-text {
+		font-weight: bold;
+		font-size: 16px;
+		color: #4A4A4A
+		margin-bottom: 10px;
+	}
+
+	.subhead-text {
+		font-weight: bold;
+		font-size: 20px;
+		color: #1B1B1B;
+		margin-bottom: 30px;
+	}
+
+	.body-text {
+		font-size: 16px;
+		color: #7A7A7A;
+	}
+
+	#product1 {
+		width: 25%;
+		float: left;
+		height: 350px;
+		background-image: url(https://bakey.codeit.kr/files/613/images/img1.jpg);
+		background-repeat: no-repeat;
+	}
+
+	#product2 {
+		width: 25%;
+		float: left;
+		height: 175px;
+		background-image: url(https://bakey.codeit.kr/files/613/images/img2.jpg);
+		background-repeat: no-repeat;
+	}
+
+	#product3 {
+		width: 25%;
+		float: left;
+		height: 175px;
+		background-image: url(https://bakey.codeit.kr/files/613/images/img3.jpg);
+		background-repeat: no-repeat;
+	}
+
+}
