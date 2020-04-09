@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  font-family: "Jua", sans-serif;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+body {
+ 
+  background-color: #F0E8D9;
+  
+}
+
+@font-face {
+  font-family: "Jua";
+  src: url("https://fonts.googleapis.com/css?family=Jua&display=swap");
+}
+
+.food-grid {
+  width: 660px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-title h1 {
+  margin-top: 75px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 64px;
+  text-decoration: none;
+  color: #58595B;
+}
+
+.submain-title h2 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 75px;
+  text-decoration: none;
+  color: #58595B;
+}
+
+.menu-picture {
+  width: 300px;
+  height: 200px;
+  display: block;
+  margin: auto;
+}
+
+.menu {
+  background-color: white;
+  width: 300px;
+  margin-bottom: 50px;
+  float: left;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.chicken {
+  background-image:url("https://bakey.codeit.kr/files/587/images/chicken.jpg");
+  width: 300px;
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.sushi {
+  background-image:url("https://bakey.codeit.kr/files/587/images/sushi.jpg");
+  width: 300px;
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hamburger {
+  background-image:url("https://bakey.codeit.kr/files/587/images/burger.jpg");
+  width: 300px;
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bibimbap {
+  background-image:url("https://bakey.codeit.kr/files/587/images/bibimbap.jpg");
+  width: 300px;
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pay {
+  display: block;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 16px;
+  color:#0000EE;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.menu-title {
+  font-size: 32px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #58595B;
+}
+
+.menu-description {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+  font-size: 15px;
+  color: #58595B;
+}
+
+.clearfix {
+  clear: left;
+}
